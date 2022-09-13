@@ -1,0 +1,13 @@
+
+from googlesearch import search
+# texto de busca
+query = 'pycoder'
+
+#Faz a busca e cria lista com os links dos resultados
+result = list(
+    search(
+        query,
+        lang='pt-br',
+    )
+)
+print (resul)
